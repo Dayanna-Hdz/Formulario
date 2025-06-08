@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+.botoncito {
+
+    margin: auto; 
+    display: block; 
+    width: 20%; 
+    background-color: #9a48c9; 
+    
+   
+    padding: 15px 30px; 
+
+  
+    text-align: center; 
+    color: white;
+    font-family: Arial, sans-serif; 
+    letter-spacing: 1px; 
+    border-radius: 50px; 
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.50); 
+    text-decoration: none; 
+    white-space: nowrap; 
+    box-sizing: border-box;
+    
+    transition: background-color 1s ease; 
+}
+
+.botoncito:hover {
+    background-color: #581875; 
+}
