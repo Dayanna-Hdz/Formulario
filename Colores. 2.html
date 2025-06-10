@@ -51,6 +51,21 @@
             border: 1px dashed green; 
         }
 
+        .entable-container {
+        display: table; 
+        width: 100%; 
+        border-collapse: collapse; 
+        margin-bottom: 20px; 
+    }
+
+    .entable-container div {
+    display: table-cell;
+    width: 25%; 
+    border: 1px solid green;
+    padding: 10px; 
+    box-sizing: border-box; 
+   }
+
       
         .enlinea-container {
             border: 1px solid purple;
@@ -83,7 +98,7 @@
             color: white;
         }
 
-        /* POSICIONAMIENTO FIJO */
+        
         .posicionamiento-fijo {
             position: fixed;
             background-color: darkgreen;
@@ -111,13 +126,6 @@
             background-color:lightgray;
         }
 
-    
-        .flotante-container .float-right-example {
-            float: right;
-            background-color: darkgoldenrod;
-            color: white;
-        }
-
     </style>
 </head>
 
@@ -128,9 +136,9 @@
     <hr>
     <h2>Elementos en Bloque</h2>
     <article class="bloque-container">
-        <div class="clave">Color 1 (Bloque)</div>
-        <div class="hexadecimal">Color 2 (Bloque)</div>
-        <div class="rgb-color">Color 3 (Bloque)</div>
+        <div class="clave">Color 1</div>
+        <div class="hexadecimal">Color 2</div>
+        <div class="rgb-color">Color 3</div>
     </article>
 
     <hr>
@@ -140,6 +148,16 @@
         <div class="lineal">Color 5</div>
         <div class="rdcolor">Color 6</div>
     </article>
+
+
+    <hr>
+    <h2>Elementos en tabla</h2>
+    <div class="entable-container">
+    <div class="clave"> Tabla 1 </div>
+    <div class="hexadecimal"> Tabla 2 </div>
+    <div class="rgb-color"> Tabla 3 </div>
+    <div class="hsl"> Tabla 4 </div>
+    </div>
 
     <hr>
     <h2>Posicionamiento Relativo</h2>
@@ -162,11 +180,12 @@
     <article class="flotante-container">
         <div class="clave">Color 1</div>
         <div class="hexadecimal">Color 2</div>
-        <div class="rgb-color float-right-example">Color 3</div>
         <div class="hsl">Color 4</div>
         <div class="lineal">Color 5</div>
         <div class="rdcolor">Color 6</div>
     </article>
 
-    <br><br><br> </body>
+    <br><br><br> 
+
+</body>
 </html>
