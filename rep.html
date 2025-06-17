@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquila Car - Renta de Autos de Lujo</title>
+    <link rel="stylesheet" href="repaso_css.css"> </head>
+<body>
+    <div class="contenedor-principal">
+        <header class="encabezado">
+            <div class="contenedor-logo-texto">
+                <img src="https://via.placeholder.com/200x80/000000/FFFFFF?text=LOGO+COCHE" alt="Logo de Alquila Car" class="logo-coche">
+                <h1>ALQUILA CAR</h1>
+                <h2>RENTA DE AUTOS DE LUJO</h2>
+            </div>
+        </header>
+
+        <main class="contenido-principal">
+            <section class="seccion-datos-cliente">
+                <h3>DATOS DEL CLIENTE</h3>
+                <form class="formulario-cliente">
+                    <div class="grupo-campo">
+                        <label for="nombre">NOMBRE</label>
+                        <input type="text" id="nombre">
+                    </div>
+                    <div class="grupo-campo">
+                        <label for="direccion">DIRECCION</label>
+                        <input type="text" id="direccion">
+                    </div>
+                    <div class="grupo-campo">
+                        <label for="telefono">TELEFONO</label>
+                        <input type="text" id="telefono">
+                    </div>
+                    <div class="grupo-campo">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="grupo-campo grupo-fecha-dias">
+                        <div class="fecha-renta">
+                            <label for="fecha-renta">FECHA DE RENTA</label>
+                            <select id="fecha-renta">
+                                <option value="enero">ENERO</option>
+                                <option value="febrero">FEBRERO</option>
+                                <option value="marzo">MARZO</option>
+                                <option value="abril">ABRIL</option>
+                                <option value="mayo">MAYO</option>
+                                <option value="junio">JUNIO</option>
+                                <option value="julio">JULIO</option>
+                                <option value="agosto">AGOSTO</option>
+                                <option value="septiembre">SEPTIEMBRE</option>
+                                <option value="octubre">OCTUBRE</option>
+                                <option value="noviembre">NOVIEMBRE</option>
+                                <option value="diciembre">DICIEMBRE</option>
+                            </select>
+                            <span>2023</span>
+                        </div>
+                        <div class="numero-dias">
+                            <label for="numero-dias">NUMERO DE DIAS</label>
+                            <input type="number" id="numero-dias" min="1">
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <section class="seccion-preferencias-servicios">
+                <div class="contenedor-preferencias">
+                    <div class="marca-preferencia">

@@ -1,0 +1,184 @@
+body {
+    background-color: #323233; ;
+    color: #f8f9fa; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.contenedor{
+    width: 95%;
+    background-color: #1b1b1b; 
+    border: 2px solid #202020ab; 
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.encabezado {
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6c757d;
+    }
+
+.contenedor_logo1 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 15px;
+}
+
+.Logo1 {
+    width: 80px;
+    height: 50px;
+    filter: invert(100%); 
+    align-items: center;
+}
+
+.encabezado h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #f8f9fa; 
+    text-align: center;
+}
+
+.encabezado h2 {
+    font-size: 1.5em;
+    color: #ced4da;
+    text-align: center; 
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    }
+
+.caja-1, .caja-2, .caja-3 {
+    background-color: #151618; /
+    border: 1px solid #6c757d;
+    padding: 15px;
+    box-sizing: border-box;
+    flex: 1;
+    min-width: 300px;
+    border-radius: 8px; 
+}
+
+.main-footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #6c757d;
+    font-size: 0.9em;
+    color: #cbd1d6; 
+}
+
+
+.caja-1 , .caja-2 h2, .caja-3 h2 {
+    color: #f8f9fa;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario-cliente {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-datos, .form-date {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.formulario-cliente input[type="text"],
+.formulario-cliente input[type="number"],
+.formulario-cliente input[type="email"],
+.formulario-cliente input[type="date"] {
+    background-color: #343a40; 
+    color: #f8f9fa; 
+    border: 1px solid #6c757d; 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;   
+}
+
+.formulario-cliente input[type="text"]:focus,
+.formulario-cliente input[type="number"]:focus,
+.formulario-cliente input[type="email"]:focus,
+.formulario-cliente input[type="date"]:focus {
+    border-color: #ffffff; 
+    box-shadow: 0 0 5px rgb(255, 255, 255); 
+}
+
+.seccion-opciones-marcas{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+.servicios-extras-checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boton-final{
+    padding: 10px 25px;
+	background: #a9c5c5;
+	border: none;
+	font-size: 12px;
+	font-weight: 700;
+    box-shadow: #212529;
+    border-radius: 10px;
+    
+
+	color: #000000;
+	cursor: pointer;
+
+	transition: all 1s;
+}
+
+.boton-final:hover{
+    background-color: #53a1a1 ;
+}
+
+.seccion-logos-marcas{
+    align-items: center;
+}
+
+
+.seccion-logos-marcas {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
+    
+}
+
+
+.seccion-logos-marcas img {
+    max-width: 120px; 
+    height: 120px; 
+}
+
+.main-footer,a {
+    color: #afb0b1;
+}
